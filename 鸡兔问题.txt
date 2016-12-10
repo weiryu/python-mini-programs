@@ -1,0 +1,7 @@
+def solve(heads,legs)£º
+	for numChickens in range(0,heads):
+		numPigs=heads-numChickens
+		totlegs=4*numPigs+2*numChickens
+		if totlegs==legs:
+			print(numChickens,numPigs)
+	return(None,None)
